@@ -23,7 +23,7 @@ const Contact = () => {
           <div className="col-md-6">
             <h1>Στοιχεια Επικοινωνιας</h1>
             <p>Τηλέφωνο: <a href="tel:ΤΟ-ΤΗΛΕΦΩΝΟ">6938428035</a></p>
-            <p>Email: <a href="mailto:ΤΟ-EMAIL-ΣΑΣ">:menelaoosskurtis@gmail.com</a></p>
+            <p>Email: <a href="mailto:ΤΟ-EMAIL-ΣΑΣ">:markosskurtis@gmail.com</a></p>
             <p>Διεύθυνση: ΙΩΑΝΝΗ ΖΑΧΑΡΙΑ 24 ΠΑΙΑΝΙΑ </p>
           </div>
         </div>
