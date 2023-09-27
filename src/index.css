@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.phone-box {
+  border: 2px solid
+}
+
+  /* Ρυθμίζει το πλάτος και το ύψος των εικόνων σε 200px x 200px */
+  .square-image {
+    width: 500px;
+    height: 250px;
+    object-fit: cover; /* Εξασφαλίζει ότι η εικόνα θα καλύπτει τον χώρο */
+    border: 1px solid #ddd; /* Προσθέτει ένα περίγραμμα γύρω από την εικόνα */
+    border-radius: 5px; /* Προσθέτει γωνιοκαμπύλες για να κάνει την εικόνα τετράγωνη */
+    margin: 5px; /* Αφήνει έναν μικρό χώρο γύρω από τις εικόνες */
+  }
+
+
+
+
+
+
