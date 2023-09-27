@@ -14,6 +14,7 @@ import vsimage9 from './erg9.jpg';
 import vsimage10 from './erg10.jpg';
 import vsimage11 from './erg11.jpg';
 import vsimage12 from './ser8.jpg';
+import vsimage13 from './vs5.jpg';
 
 const Erga = () => {
     return (
@@ -32,7 +33,7 @@ const Erga = () => {
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img src={vsimage12} className="d-block w-100" alt="Έργο 1" />
+                <img src={vsimage13} className="d-block w-100" alt="Έργο 1" />
             </div>
             <div className="carousel-item">
                 <img src={vsimage2} className="d-block w-100" alt="Έργο 2" />

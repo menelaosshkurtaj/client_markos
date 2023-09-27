@@ -10,7 +10,7 @@ const Contact = () => {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    // Στείλτε τα στοιχεία της φόρμας στο email menelaos_skurtis@gmail.com
+    // Στείλτε τα στοιχεία της φόρμας στο email markosskurtis@gmail.com
     const emailContent = `Όνομα: ${name}\nEmail: ${email}\nΤηλέφωνο: ${phone}\nΜήνυμα: ${message}`;
     window.location.href = `mailto:menelaoosskurtis@gmail.com?subject=Αίτημα%20προσφοράς&body=${emailContent}`;
   };
