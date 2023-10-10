@@ -15,15 +15,18 @@ import logo from './LOGO.jpg';
 const Home = () => (
 
     
-    
+   
+
    
 
 
 
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
- <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-  <img src={logo} alt="Εικόνα" />
+ <div className="container mt-5 text-center">
+  <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+  <img src="your-image-url.jpg" alt="Εικόνα" />
+</div>
 
     
   
