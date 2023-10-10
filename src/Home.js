@@ -28,13 +28,12 @@ const Home = () => (
 
 
 
- <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
-    <Container className="mt-5">
-      <Row className="align-items-center">
+ <Container className="mt-5">
+      <Row>
         <Col xs={12} md={6}>
           <Image src={logo} alt="Εικόνα" fluid />
         </Col>
-         <Col xs={12} md={6} className="text-center mt-4 mt-md-0">
+        <Col xs={12} md={6}>
           <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
           <div className="phone-box">
             <span>Τηλέφωνο Επικοινωνίας:</span>
@@ -44,7 +43,6 @@ const Home = () => (
         </Col>
       </Row>
     </Container>
-  </div>
 <div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
     
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
