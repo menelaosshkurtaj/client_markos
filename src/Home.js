@@ -29,8 +29,8 @@ const Home = () => (
 
 
 <div className="container mt-5 text-center">
-  <div style={{ display: 'flex', alignItems: 'center' }}>
-    <img src={logo} alt="Εικόνα" />
+  <div className="d-md-flex align-items-center">
+    <img src={logo} alt="Εικόνα" className="mb-4 mb-md-0" />
     <div className="text-center text-md-left ml-4">
       <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
       <div className="phone-box">
