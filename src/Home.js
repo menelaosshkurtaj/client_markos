@@ -32,7 +32,7 @@ const Home = () => (
   <div className="d-md-flex align-items-center">
     <img src={logo} alt="Εικόνα" className="mb-4 mb-md-0" />
     <div className="text-center text-md-left ml-4">
-    <h1 style="visibility: hidden;">Ελαιοχρωματισμοί Μάρκος</h1>
+    <h1 >Ελαιοχρωματισμοί Μάρκος</h1>
        <div className="phone-box p-2">
     ΤΗΛ.ΕΠΙΚΟΙΝΩΝΙΑΣ: 
     <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
