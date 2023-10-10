@@ -15,12 +15,12 @@ import logo from './logo.jpg';
 const Home = () => (
     
    
-  
+     <h1> Ελαιοχρωματισμοί Μάρκος </h1>
 
 
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
-   <h1> Ελαιοχρωματισμοί Μάρκος </h1>
+
  
 
     
