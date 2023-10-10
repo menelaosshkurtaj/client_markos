@@ -28,13 +28,13 @@ const Home = () => (
 
 
 
-<div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
+ <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
     <Container className="mt-5">
-      <Row className="text-center align-items-center">
-        <Col xs={12} md={6} className="order-2 order-md-1">
+      <Row className="align-items-center">
+        <Col xs={12} md={6}>
           <Image src={logo} alt="Εικόνα" fluid />
         </Col>
-        <Col xs={12} md={6} className="text-md-left mt-4 mt-md-0 order-1 order-md-2">
+        <Col xs={12} md={6} className="text-left mt-4 mt-md-0">
           <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
           <div className="phone-box">
             <span>Τηλέφωνο Επικοινωνίας:</span>
