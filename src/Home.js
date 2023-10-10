@@ -13,14 +13,17 @@ import vsimage7 from './vs9.png';
 import logo from './logo.jpg';
 
 const Home = () => (
-    
+    <div className="container mt-5 text-center">
+  <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+  <img src="LOGO.jpg" alt="Εικόνα" />
+</div>
+
    
 
 
 
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
-     <h1> ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ </h1>
  
 
     
