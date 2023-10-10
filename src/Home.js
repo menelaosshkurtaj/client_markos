@@ -25,15 +25,18 @@ const Home = () => (
 
 
  
-
-  <div className="container mt-5 text-center">
+<div className="container mt-5 text-center">
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-      <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-      <div className="container mt-5 text-left">
-     <img src={logo} alt="Εικόνα" />
+      <img src={logo} alt="Εικόνα" />
+      <div>
+        <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+        <div className="phone-box">
+          <span>Τηλέφωνο Επικοινωνίας:</span>
+          <p>ΤΟ ΤΗΛΕΦΩΝΟ ΣΑΣ ΕΔΩ</p>
+        </div>
       </div>
+    </div>
   </div>
-
   
 <div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
     
