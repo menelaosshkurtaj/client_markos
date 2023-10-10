@@ -44,31 +44,29 @@ const Home = () => (
 
 
 
-<div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
-    
-    <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-            <div className="carousel-item active">
-                <img src={vsImage} className="d-block w-100" alt="Έργο 1" />
-            </div>
-            <div className="carousel-item">
-                <img src={vsImage1} className="d-block w-100" alt="Έργο 2" />
-            </div>
-            <div className="carousel-item">
-                <img src={vsimage2} className="d-block w-100" alt="Έργο 3" />
-            </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-        </button>
+<div style={{ width: '90%', margin: '0 auto', overflow: 'hidden' }}>
+  <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src={vsImage} className="d-block w-100" alt="Έργο 1" />
+      </div>
+      <div className="carousel-item">
+        <img src={vsImage1} className="d-block w-100" alt="Έργο 2" />
+      </div>
+      <div className="carousel-item">
+        <img src={vsimage2} className="d-block w-100" alt="Έργο 3" />
+      </div>
     </div>
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+    </button>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+    </button>
+  </div>
 </div>
-
 <div className="container my-5">
 
 <div className="container my-5">
