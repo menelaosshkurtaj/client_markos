@@ -6,7 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+@media (max-width: 768px) {
+  /* Καθορίστε τον κείμενο να εμφανίζεται από πάνω προς τα κάτω */
+  .text-left {
+    text-align: center;
+    margin-left: 0;
+  }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
