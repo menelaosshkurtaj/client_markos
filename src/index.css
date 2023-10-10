@@ -26,6 +26,11 @@ code {
   }
 
 
+@media (max-width: 768px) {
+  #carouselExampleControls {
+    height: 300px; /* Ορίστε το επιθυμητό ύψος για κινητές συσκευές */
+  }
+}
 
 
 
