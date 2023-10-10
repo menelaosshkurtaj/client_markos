@@ -32,7 +32,7 @@ const Home = () => (
   <div className="d-md-flex align-items-center">
     <img src={logo} alt="Εικόνα" className="mb-4 mb-md-0" />
     <div className="text-center text-md-left ml-4">
-      <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+    <h1 style="visibility: hidden;">Ελαιοχρωματισμοί Μάρκος</h1>
        <div className="phone-box p-2">
     ΤΗΛ.ΕΠΙΚΟΙΝΩΝΙΑΣ: 
     <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
@@ -159,7 +159,7 @@ const Home = () => (
     <p>&copy; {new Date().getFullYear()}  Ελαιοχρωματισμοί Μάρκος Σκούρτης. Όλα τα δικαιώματα διατηρούνται.</p>
     <p>
         <a href="/terms-of-service" className="text-white mr-4">Όροι Χρήσης</a> 
-        | 
+    
         <a href="/privacy-policy" className="text-white ml-4">Πολιτική Απορρήτου</a>
         
     </p>
