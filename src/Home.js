@@ -15,16 +15,7 @@ import logo from './LOGO.jpg';
 const Home = () => (
 
     
-   
-
-   
-
-
-
-<div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
-
-
- 
+    
 <div className="container mt-5 text-center">
   <div style={{ display: 'flex', alignItems: 'center' }}>
     <img src={logo} alt="Εικόνα" />
@@ -38,6 +29,15 @@ const Home = () => (
     </div>
   </div>
 </div>
+
+
+   
+
+
+
+<div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
+
+
 
 
   
