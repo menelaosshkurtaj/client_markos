@@ -5,7 +5,13 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
+}@media (max-width: 768px) {
+  #carouselExampleControls {
+    height: 300px; /* Ορίστε το επιθυμητό ύψος για κινητές συσκευές */
+  }
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
