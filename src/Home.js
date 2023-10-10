@@ -34,7 +34,7 @@ const Home = () => (
         <Col xs={12} md={6}>
           <Image src={logo} alt="Εικόνα" fluid />
         </Col>
-        <Col xs={12} md={6} className="text-left mt-4 mt-md-0">
+         <Col xs={12} md={6} className="text-center mt-4 mt-md-0">
           <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
           <div className="phone-box">
             <span>Τηλέφωνο Επικοινωνίας:</span>
