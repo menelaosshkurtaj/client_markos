@@ -29,9 +29,9 @@ const Home = () => (
 
 
 <div className="container mt-5 text-center">
-  <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+  <div style={{ display: 'flex', alignItems: 'center' }}>
     <img src={logo} alt="Εικόνα" />
-    <div className="text-center mt-4">
+    <div className="text-center text-md-left ml-4">
       <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
       <div className="phone-box">
         <span>Τηλέφωνο Επικοινωνίας:</span>
@@ -40,6 +40,8 @@ const Home = () => (
     </div>
   </div>
 </div>
+
+
 
 <div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
     
