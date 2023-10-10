@@ -24,12 +24,14 @@ const Home = () => (
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
 
- <img src={logo} alt="Εικόνα" />
+ 
 
   <div className="container mt-5 text-center">
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
       <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-     
+      <div className="container mt-5 text-left">
+     <img src={logo} alt="Εικόνα" />
+      </div>
   </div>
 
   
