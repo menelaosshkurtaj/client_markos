@@ -6,12 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-@media (max-width: 768px) {
-  /* Καθορίστε τον κείμενο να εμφανίζεται από πάνω προς τα κάτω */
-  .text-left {
-    text-align: center;
-    margin-left: 0;
-  }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -50,19 +45,6 @@
 /* Κάνετε χρήση του CSS για διαχείριση της αντίδρασης (responsiveness) */
 
 /* Όταν το πλάτος της οθόνης είναι μικρότερο από 768px (π.χ., για κινητά) */
-@media (max-width: 768px) {
-  /* Καθορίστε τον κείμενο να εμφανίζεται από πάνω προς τα κάτω */
-  .text-left {
-    text-align: center;
-    margin-left: 0;
-    margin-top: 20px; /* Προσαρμόστε το κατάλληλα για την απόσταση από την εικόνα */
-  }
-  /* Καθορίστε τον αριθμό τηλεφώνου να εμφανίζεται από πάνω προς τα κάτω */
-  .phone-number {
-    display: block;
-    margin-top: 10px; /* Προσαρμόστε το κατάλληλα για την απόσταση από τον προηγούμενο αριθμό */
-  }
-}
 
 
 
