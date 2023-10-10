@@ -11,6 +11,7 @@ import vsimage5 from './vs7.png';
 import vsimage6 from './vs8.png';
 import vsimage7 from './vs9.png';
 import logo from './LOGO.jpg';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Home = () => (
 
