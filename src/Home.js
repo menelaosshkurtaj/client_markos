@@ -20,7 +20,7 @@ const Home = () => (
 
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
-     <h1> Ελαιοχρωματισμοί Μάρκος </h1>
+     <h1> ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ </h1>
  
 
     
