@@ -28,21 +28,23 @@ const Home = () => (
 
 
 
-<Container className="mt-5">
-    <Row className="text-center align-items-center">
-      <Col xs={12} md={6}>
-        <Image src={logo} alt="Εικόνα" fluid />
-      </Col>
-      <Col xs={12} md={6} className="text-md-left mt-4 mt-md-0">
-        <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-        <div className="phone-box">
-          <span>Τηλέφωνο Επικοινωνίας:</span>
-          <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
-          <a href="tel:6949797189" className="phone-number">6949797189</a>
-        </div>
-      </Col>
-    </Row>
-  </Container>
+<div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
+    <Container className="mt-5">
+      <Row className="text-center align-items-center">
+        <Col xs={12} md={6} className="order-2 order-md-1">
+          <Image src={logo} alt="Εικόνα" fluid />
+        </Col>
+        <Col xs={12} md={6} className="text-md-left mt-4 mt-md-0 order-1 order-md-2">
+          <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+          <div className="phone-box">
+            <span>Τηλέφωνο Επικοινωνίας:</span>
+            <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
+            <a href="tel:6949797189" className="phone-number">6949797189</a>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  </div>
 <div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
     
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
