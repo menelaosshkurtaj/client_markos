@@ -10,13 +10,15 @@ import vsimage4 from './ser8.jpg';
 import vsimage5 from './vs7.png';
 import vsimage6 from './vs8.png';
 import vsimage7 from './vs9.png';
-import logo from './logo.jpg';
+import logo from './LOGO.jpg';
 
 const Home = () => (
+
+    
     <div className="container mt-5 text-center">
   <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-  <img src="LOGO.jpg" alt="Εικόνα" />
-</div>
+  <img src={logo} alt="Εικόνα" />
+   </div>
 
    
 
