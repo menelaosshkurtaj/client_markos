@@ -16,19 +16,7 @@ const Home = () => (
 
     
     
-<div className="container mt-5 text-center">
-  <div style={{ display: 'flex', alignItems: 'center' }}>
-    <img src={logo} alt="Εικόνα" />
-    <div className="text-left ml-4">
-      <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-      <div className="phone-box">
-        <span>Τηλέφωνο Επικοινωνίας:</span>
-        <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
-    <a href="tel:6949797189" className="phone-number">6949797189</a>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
    
@@ -39,8 +27,21 @@ const Home = () => (
 
 
 
-
-  
+<Container className="mt-5">
+    <Row className="text-center align-items-center">
+      <Col xs={12} md={6}>
+        <Image src={logo} alt="Εικόνα" fluid />
+      </Col>
+      <Col xs={12} md={6} className="text-md-left mt-4 mt-md-0">
+        <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
+        <div className="phone-box">
+          <span>Τηλέφωνο Επικοινωνίας:</span>
+          <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
+          <a href="tel:6949797189" className="phone-number">6949797189</a>
+        </div>
+      </Col>
+    </Row>
+  </Container>
 <div style={{ width: '90%', height: '500px', margin: '0 auto', overflow: 'hidden' }}>
     
     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
