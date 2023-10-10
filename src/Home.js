@@ -44,7 +44,7 @@ const Home = () => (
 
 
 
-<div style={{ width: '90%', margin: '0 auto', overflow: 'hidden', height: window.innerWidth <= 767 ? '100px' : '500px' }}>
+<div style={{ width: '90%', margin: '0 auto', overflow: 'hidden', height: window.innerWidth <= 767 ? '200px' : '500px' }}>
   <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
       <div className="carousel-item active">
