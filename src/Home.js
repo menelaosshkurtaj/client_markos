@@ -24,7 +24,7 @@ const Home = () => (
 <div className="container mt-5" style={{ backgroundColor: '#e0e0e0' }}>
 
 
- <img src={log0} alt="Εικόνα" />
+ <img src={logo} alt="Εικόνα" />
 
   <div className="container mt-5 text-center">
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
