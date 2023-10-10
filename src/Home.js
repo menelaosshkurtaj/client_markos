@@ -33,9 +33,10 @@ const Home = () => (
     <img src={logo} alt="Εικόνα" className="mb-4 mb-md-0" />
     <div className="text-center text-md-left ml-4">
       <h1 className="mb-4">ΕΛΑΙΟΧΡΩΜΑΤΙΣΜΟΙ ΜΑΡΚΟΣ</h1>
-      <div className="phone-box">
-        <span>Τηλέφωνο Επικοινωνίας:</span>
-        <p>6938428035-6949797189</p>
+       <div className="phone-box p-2">
+    ΤΗΛ.ΕΠΙΚΟΙΝΩΝΙΑΣ: 
+    <a href="tel:6938428035" className="phone-number mr-2">6938428035</a>-
+    <a href="tel:6949797189" className="phone-number">6949797189</a>
       </div>
     </div>
   </div>
